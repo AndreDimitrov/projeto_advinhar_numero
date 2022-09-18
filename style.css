@@ -1,0 +1,74 @@
+body {
+    /* background: #000000; */
+    background-image: url('https://thumbs.dreamstime.com/z/os-n%C3%BAmeros-m%C3%A1gicos-24136657.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.mentalista {
+    font-size: 55px;
+}
+
+.mentalista:hover {
+    color: blue;
+    transition: 1s all;
+}
+
+.texto {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page-logo {
+    width: 200px;
+    padding: 15px 50px;
+}
+
+.campo {
+    width: 175px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.chutar {
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 1s all;
+    margin: 0 25px;
+}
+
+.chutar:hover {
+    background: blue;
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+
+.chutar:active {
+    background: green;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.resultado {
+    margin: 0 0 0 480px;
+    color: blue;
+}
+
